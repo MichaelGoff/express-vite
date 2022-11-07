@@ -3,9 +3,17 @@
   "version": "1.0.0",
   "description": "A test of vite in middleware mode serving app on express server",
   "main": "server.js",
+  "type": "module",
   "scripts": {
+    "dev": "node ./src/server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "vite": "^3.2.3",
+    "vue": "^2.7.13",
+    "vue-router": "^3.6.5"
+  }
 }
